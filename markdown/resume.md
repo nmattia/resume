@@ -91,7 +91,7 @@ Tools
     and **Terraform**.
 
 :   I have a basic knowledge of **Rust**, **Python**, **JavaScript**,
-    **Erlang**, **LaTeX** and **x86 assembly**
+    **Erlang**, **LaTeX** and **x86 assembly**.
 
 [stutter]: https://github.com/githubuser/superlongprojectname
 [rulex]: https://github.com/githubuser/superlongprojectname

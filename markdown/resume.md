@@ -141,4 +141,4 @@ Beyond technology
 > <nicolas@nmattia.com>
 >   • [github.com/nmattia](http://github.com/nmattia)
 >   • <http://nmattia.com>\
-> +41 79 717 63 31 • Betrastrasse 74 -- 8003 Zurich, Switzerland
+> +41 79 717 63 31 • Bertastrasse 74 -- 8003 Zurich, Switzerland

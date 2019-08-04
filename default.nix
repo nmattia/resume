@@ -1,5 +1,4 @@
-let sources = import ./nix/sources.nix; in
-{ pkgs ? import sources.nixpkgs {}}:
+{ pkgs ? import ./nix {} }:
 let
   texlive = (pkgs.texlive.combine { inherit (pkgs.texlive) scheme-context; });
 in rec

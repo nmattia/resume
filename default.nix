@@ -1,19 +1,64 @@
-{ pkgs ? import <nixpkgs> {}}:
+let sources = import ./nix/sources.nix; in
+{ pkgs ? import sources.nixpkgs {}}:
 let
   texlive = (pkgs.texlive.combine { inherit (pkgs.texlive) scheme-context; });
-in
-  # TODO: refactor with shell.nix
-  pkgs.stdenv.mkDerivation
-    { name = "nmattia-resume";
-      src = pkgs.lib.cleanSource ./.;
+in rec
+
+{ pdf = pkgs.stdenv.mkDerivation
+    { name = "resume-pdf";
+      phases = [ "buildPhase" "installPhase" ];
+      buildPhase =
+        ''
+        mkdir -p build
+        cp ${./resume.md} build/resume.md
+
+        pandoc \
+          build/resume.md \
+          --pdf-engine=context \
+          --template ${./styles}/chmduquesne.tex \
+          --variable papersize=A4\
+          -o build/resume.pdf
+        '';
+
+      installPhase =
+        ''
+        mkdir -p $out
+        cp build/resume.pdf $out/resume.pdf
+        '';
+
       buildInputs =
         [ pkgs.pandoc
           texlive
         ];
+
+      TEXMF="${texlive}/share/texmf";
+    };
+  html = pkgs.stdenv.mkDerivation
+    { name = "resume-html";
+      phases = [ "buildPhase" "installPhase" ];
+      buildPhase =
+        ''
+        mkdir -p build
+        cp ${./resume.md} build/resume.md
+
+        pandoc \
+          build/resume.md \
+          --include-in-header ${./styles}/chmduquesne.css \
+          --metadata pagetitle='Nicolas Mattia - resume' \
+          -o build/resume.html
+        '';
+
       installPhase =
         ''
-          mkdir -p $out
-          cp output/* $out
+        mkdir -p $out
+        cp build/resume.html $out/resume.html
         '';
+
+      buildInputs =
+        [ pkgs.pandoc
+          texlive
+        ];
+
       TEXMF="${texlive}/share/texmf";
-    }
+    };
+}

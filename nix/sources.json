@@ -1,0 +1,14 @@
+{
+    "nixpkgs": {
+        "branch": "release-19.03",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "90b1b55e3e108e90c93f1c13edd7beab35379ea5",
+        "sha256": "17qky07f88wp5z35bpdq871qjwvyvm0ffkhzpl6vgc5zqmn43i0v",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/90b1b55e3e108e90c93f1c13edd7beab35379ea5.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

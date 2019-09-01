@@ -11,10 +11,17 @@ Nicolas Mattia
 Employment
 ----------
 
+**Software Engineer at DFINITY**
+
+I have been working as a Software Engineer at [DFINITY] since July 2019. I work
+on automatizing the infrastructure deployments, make the builds reliable, fast
+and adaptable, and as an integral member of the development team of DFINITY's
+execution platform.
+
 **Software Engineer at Tweag I/O**
 
-I have been working as a Haskell consultant at [Tweag I/O][tweag] since
-September 2016. I have lead projects from when they were moonshots to
+I worked as a Haskell consultant at [Tweag I/O][tweag] between September 2016
+and July 2019. I have lead projects from when they were moonshots to
 production-ready products.
 
 * I was part of the research team for an [EU-funded project][sage] which aimed
@@ -24,10 +31,13 @@ production-ready products.
   for a Fortune 500 company. To this day, the platform enables data scientists
   from several continents to easily share large datasets for reproducible
   research.
-* I am currently a core developer of a new form of spreadsheet engine, which
+* I was a core developer of a new form of spreadsheet engine, which
   allows Python, R and other programming languages to be used interactively
-  alongside Excel. I have advised on, and helped implementing the API and
-  database designs, auto scaling infrastructure and code quality measures.
+  alongside Excel, as well as using large (1GB+) datasets in user sheets. I
+  have advised on, and helped implementing the API and database designs, auto
+  scaling infrastructure and code quality measures.
+* I added support for building Haskell programs in Google's [Bazel] on Windows
+  for [Digital Asset][DA]'s [DAML] compiler.
 
 **Platform Engineer at Pusher Ltd.**
 
@@ -44,6 +54,10 @@ comes a million ways to break a platform.
 
 [sage]: http://www.sagestorage.eu/
 [tweag]: https://tweag.io
+[Bazel]: https://bazel.build/
+[DA]: https://digitalasset.com/
+[DAML]: https://daml.com/
+[DFNITY]: https://dfinity.org
 
 Education
 ---------

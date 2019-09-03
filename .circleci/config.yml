@@ -24,6 +24,16 @@ jobs:
           command: |
             nix-build --no-link --sandbox --max-jobs 20
 
+            mkdir -p /tmp
+            cp $(nix-build -A pdf)/resume.pdf /tmp/resume.pdf
+            cp $(nix-build -A html)/resume.html /tmp/resume.html
+
+      - store_artifacts:
+          path: /tmp/resume.pdf
+
+      - store_artifacts:
+          path: /tmp/resume.html
+
 workflows:
   version: 2
   build:

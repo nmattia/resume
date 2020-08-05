@@ -13,10 +13,10 @@ Employment
 
 **Software Engineer at DFINITY**
 
-I have been working as a Software Engineer at [DFINITY] since July 2019. I work
-on automatizing the infrastructure deployments, make the builds reliable, fast
-and adaptable, and as an integral member of the development team of DFINITY's
-execution platform.
+I have been working as a Software Engineer at [DFINITY](https://dfinity.org)
+since June 2019. I work on automatizing the infrastructure deployments, make
+the builds reliable, fast and adaptable, and as an integral member of the
+development team of DFINITY's execution platform.
 
 **Software Engineer at Tweag I/O**
 
@@ -85,9 +85,10 @@ Open Source
     either to bring attention to an issue, to directly fix a bug, or to submit
     new features. In addition, I maintain a few projects of my own, including:
 
+    * [niv](https://github.com/nmattia/niv/) -- Easy dependency management for [Nix](https://nixos.org/ projects).
+    * [DeckDeckGo](https://deckdeckgo.com/) -- The Open Source presentation platform.
     * [stutter][stutter] -- A command-line tool that generates strings
       based on regex-like input.
-    * [rulex][rulex] -- A Ruby DSL for generating LaTeX.
     * [mask][mask] -- the Haskell Makefile parser and generator.
 
 Tools
@@ -108,7 +109,6 @@ Tools
     **Erlang**, **LaTeX** and **x86 assembly**.
 
 [stutter]: https://github.com/githubuser/superlongprojectname
-[rulex]: https://github.com/githubuser/superlongprojectname
 [mask]: https://github.com/githubuser/superlongprojectname
 
 Academic & Speaking
@@ -155,10 +155,7 @@ Beyond technology
      * Italian (social proficiency)
 
 * I am a music enthusiast and have played the lead guitar in several local
-  bands, the latest in date being [Soldat Lemmy][soldatlemmy]. I also enjoy
-  bouldering and sketching.
-
-[soldatlemmy]: http://soldatlemmy.com
+  bands. I also enjoy bouldering and sketching.
 
 ----
 

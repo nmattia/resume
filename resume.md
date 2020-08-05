@@ -115,7 +115,17 @@ Academic & Speaking
 --------------------
 
 Speaking
-:   **A Fully Functional Webapp** -- Talk at WebZuri -- September 2017\
+:   **[Overview of Language Support in Nix](https://www.youtube.com/watch?v=nXDumHZI2zg)** -- Talk at NixCon -- October 2019\
+    A comparison of the different approaches used in the Nix community today to
+    package code.
+
+    **[Testing and Deploying to AWS: A Toolbox](https://www.youtube.com/watch?v=lHtIvsDnH0Q)** -- Talk at NixCon -- October 2019\
+    An overview of the setup used when building
+    [DeckDeckGo](https://deckdeckgo.com). How to use Nix to test and deploy
+    code to AWS Lambda, backed by Amazon's Simple Queue Service, DynamoDB, S3
+    and RDS PostgreSQL.
+
+    **[A Fully Functional Webapp](https://www.youtube.com/watch?v=amTG4sGbXsk)** -- Talk at WebZuri -- September 2017\
     Discussions around and examples of functional programming stacks for web
     applications.
 
@@ -155,4 +165,4 @@ Beyond technology
 > <nicolas@nmattia.com>
 >   • [github.com/nmattia](http://github.com/nmattia)
 >   • <http://nmattia.com>\
-> +41 79 717 63 31 • Bertastrasse 74 -- 8003 Zurich, Switzerland
+>   Zurich, Switzerland
